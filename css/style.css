@@ -28,7 +28,9 @@ margin: 0 auto; box-sizing: border-box;}
 .nav-item.active a {
 	color: #4db6e2 !important;
 }
-
+.navbar-nav.mr-auto li a:hover {
+	color: #4db6e2 !important;
+}
 #banner {
 	width: 100%;
 	display: block;
