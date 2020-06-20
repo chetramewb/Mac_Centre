@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {font-size:16px; margin:0 auto;  font-family: 'Montserrat', sans-serif; }
+.container{max-width:1170px;
+margin: 0 auto; box-sizing: border-box;}
+/***********************main-header*************************/
+#main-header {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	padding: 20px 0px;
+	background: #f2f2f2;
+}
+
+.navbar.navbar-expand-lg {
+	float: right;
+}
+.navbar.navbar-expand-lg .navbar-nav.mr-auto li {
+	padding-left: 30px;
+}
+
+.navbar.navbar-expand-lg .navbar-nav.mr-auto li a {
+	font-size: 17px;
+	font-weight: 600;
+	color: #282828;
+	font-family: 'Montserrat',
+}
+.nav-item.active a {
+	color: #4db6e2 !important;
+}
+
+#banner {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	background: #f2f2f2;
+	padding: 20px 0px;
+	position: relative;
+}
+.banner-heading h1 {
+	font-size: 42px;
+	color: #303132;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+
+.banner-heading p {
+	color: #878787;
+	font-size: 17px;
+	font-weight: 400;
+	width: 100%;
+	max-width: 78%;
+	margin: 0 auto;
+	padding: 0px 0px 40px;
+}
+
+.contact {
+	color: #fff;
+	background: #4db6e2;
+	font-size: 14px;
+	padding: 15px 45px;
+	font-weight: 700;
+	border-radius: 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.contact:hover {
+	color: #4db6e2;
+	background: #282828;
+	transition: all ease-in-out 0.5s;
+	text-decoration: none;
+}
+
+.mac-key {
+	padding-top: 40px;
+}
+/***************
+#banner::before {
+	position: absolute;
+	content: "";
+	background-image: url(../images/mac-before.png); background-repeat: no-repeat;
+	background-size: cover;
+	width: 500px;
+	height: 500px;
+}
+
+#banner::after {
+	position: absolute;
+	content: "";
+	background-image: url(../images/mac-after.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 500px;
+	height: 500px;
+	right: 0;
+	top: 23px;
+}****************/
+
+
+#mac-about {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	padding: 80px 0px;
+}
+.mac-heading h4 {
+	color: #303132;
+	font-size: 22px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	position: relative;
+	padding-bottom: 25px;
+}
+
+.mac-heading h4::after {
+	position: absolute;
+	content: "";
+	width: 58px;
+	height: 6px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background: #4db6e2;
+	bottom: 0;
+}
+
+
+.mac-heading p {
+	color: #878787;
+	font-size: 14px;
+	font-weight: 400;
+	width: 100%;
+	max-width: 60%;
+	margin: 0 auto;
+	padding: 10px 0px;
+}
+
+.icon-heading {
+	width: 100%;
+	display: block;
+	padding-top: 55px;
+}
+
+.icon-heading h5 {
+	font-size: 20px;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+
+.icon-heading p {
+	color: #878787;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+#Apple-work {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	background: #f2f6f8;
+	padding: 50px 0px;
+}
+
+
+
+.A-w-heading h4 {
+	color: #303132;
+	font-size: 22px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	position: relative;
+	padding-bottom: 25px;
+}
+
+.A-w-heading h4::after {
+	position: absolute;
+	content: "";
+	width: 58px;
+	height: 6px;
+	left: 0;
+	background: #4db6e2;
+	bottom: 0;
+}
+
+
+.A-w-heading p {
+	color: #878787;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 10px 0px;
+	line-height: 40px;
+}
+
+.A-w-heading a {
+	color: #4db6e2;
+	font-size: 14px;
+	font-weight: 700;
+	border: 3px solid #4db6e2;
+	padding: 15px 30px;
+	letter-spacing: 1px;
+}
+
+.A-w-heading a:hover {
+	background: #4db6e2;
+	color: #fff;
+	transition: all ease-in-out 0.5s;
+	text-decoration: none;
+}
