@@ -1,11 +1,10 @@
      
-$('.slider-blog').slick({
+$('.slider-main').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
+  dots: true,
   autoplaySpeed: 10000,
-  nextArrow: '<button class="next-arrow"> <i class="fas fa-angle-right"></i> </button>', 
-  prevArrow: '<button class="back-arrow"> <i class="fas fa-angle-left"></i> </button>', 
   responsive: [
   
   {
